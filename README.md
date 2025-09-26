@@ -1,13 +1,12 @@
 # SIEM Log Parser Dashboard (Demo)
 
-## Purpose
-A safe, educational demo that parses SIEM-style JSON logs and outputs a summary of security events.
+**Purpose:** Safe demo parsing SIEM logs and displaying alerts.
 
-## Files
-- `sample_logs.json` → demo log entries
-- `parser.py` → parses logs, summarizes events, and prints details
+**Files:**
+- `sample_logs.json` → mock SIEM logs
+- `parser.py` → Python parser script
 
-## Usage
+**Usage:**
 ```bash
 python3 parser.py
 

@@ -1,5 +1,4 @@
 [
-  {"timestamp": "2025-09-26T12:00:00", "host": "server1", "event": "login_success", "user": "alice"},
-  {"timestamp": "2025-09-26T12:05:00", "host": "server1", "event": "login_failed", "user": "bob"},
-  {"timestamp": "2025-09-26T12:10:00", "host": "server2", "event": "file_access", "user": "carol"}
+  {"timestamp":"2025-09-26T12:00:00","source":"192.168.1.10","event":"login_failed"},
+  {"timestamp":"2025-09-26T12:05:00","source":"192.168.1.11","event":"file_access"}
 ]
